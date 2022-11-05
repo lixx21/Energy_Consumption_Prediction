@@ -36,6 +36,17 @@
 
 # Build Model
 
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; For the model I used Bidirectional LSTM and last dense has only 1 num of filters. 
+
+![image](https://user-images.githubusercontent.com/91602612/200099509-47cdce69-42ec-467d-8a4c-a43b29d6f5b3.png)
+
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; I used SGD optimizers with learning_rate = 1e-4 and moemntum = 0.9. Loss function that I used is Huber() and metrics=['mae'].
+
+![image](https://user-images.githubusercontent.com/91602612/200099537-36af0a1c-7de5-47ac-afe1-6da3a97a44c6.png)
+
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Then I got loss: 0.0067 - mae: 0.0765
+
+
 # References
 
 [1] https://www.epa.gov/statelocalenergy/local-energy-efficiency-benefits-and-opportunities
